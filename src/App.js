@@ -1,11 +1,12 @@
 import './App.css';
+import Header from './components/Header';
+import RoomSection from './components/RoomSection';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-      </header>
+      <Header />
+      <RoomSection />
     </div>
   );
 }

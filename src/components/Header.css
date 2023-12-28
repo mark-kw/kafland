@@ -1,0 +1,41 @@
+header {
+    position: relative;
+    overflow: hidden;
+}
+
+.header-image {
+    width: 100%;
+    height: 400px;
+    display: block;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.hotel-name {
+    position: absolute;
+    top: 38%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hotel-name h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 7em;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+    /* Ajoute une superposition dégradée */
+}
