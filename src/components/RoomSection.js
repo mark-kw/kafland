@@ -1,34 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import './RoomSection.css'
+import { Container, Row, Col } from 'react-bootstrap';
 import { Element } from 'react-scroll';
+import { rooms } from "../data";
+import './RoomSection.css'
 
 const RoomSection = () => {
     const fadeIn = {
         hidden: { opacity: 0, y: 20 },
         visible: { opacity: 1, y: 0 },
     };
-
-    const rooms = [
-        {
-            id: 1,
-            title: 'Chambre ventilée',
-            image: '../view/ventile1.jpeg',
-            description: 'Une chambre confortable avec toutes les commodités.',
-        },
-        {
-            id: 2,
-            title: 'Chambre ventilée confort',
-            image: '../view/ventile2.jpeg',
-            description: 'Une suite spacieuse avec vue sur la mer.',
-        },
-        {
-            id: 3,
-            title: 'Chambre climatisée',
-            image: '../view/accueil3.jpeg',
-            description: 'Une chambre parfaite pour toute la famille.',
-        },
-    ];
 
     return (
         <section id="rooms">
@@ -41,24 +22,24 @@ const RoomSection = () => {
                 >
                     Chambres
                 </motion.h2>
-                <div className="room-cards">
-                    {rooms.map((room) => (
-                        <motion.div
-                            key={room.id}
-                            className="room-card"
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: room.id * 0.2 }}
-                        >
-                            <h3>{room.title}</h3>
-                            {console.log(room.image)}
-                            <img src={room.image} alt={room.title} />
-                            <p>{room.description}</p>
-                            {/* Ajoute un bouton ou un lien pour plus d'informations */}
-                        </motion.div>
-                    ))}
-                </div>
-                {/* <img src={require('../view/ventile1.jpeg')} alt='test' /> */}
+                <Container>
+                    <Row>
+                        {rooms.map((room) => (
+                            <Col key={room.id} xs={12} md={4}>
+                                <motion.div
+                                    className="room-card"
+                                    initial={{ opacity: 0, y: 20 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: room.id * 0.2 }}
+                                >
+                                    <h3>{room.title}</h3>
+                                    <img src={room.image} alt={room.title} />
+                                    <p>{room.description}</p>
+                                </motion.div>
+                            </Col>
+                        ))}
+                    </Row>
+                </Container>
             </Element>
         </section>
     );

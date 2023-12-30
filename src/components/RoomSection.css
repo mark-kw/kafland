@@ -1,4 +1,4 @@
-.rooms-section {
+#rooms {
     text-align: center;
     padding: 40px 0;
 }
@@ -6,14 +6,13 @@
 .section-title {
     font-size: 2em;
     margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-
     color: #333333;
 }
 
 .room-cards {
     display: flex;
+    flex-wrap: wrap;
+    /* Permet aux colonnes de s'aligner correctement sur les petits écrans */
     justify-content: space-around;
 }
 
