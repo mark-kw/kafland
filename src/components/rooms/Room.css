@@ -1,0 +1,54 @@
+/* Section Room */
+.room-section {
+    padding: 50px 20px;
+    height: 80vh;
+    /* Espace autour de la section */
+    text-align: center;
+    background-color: #f4f4f4;
+    /* Arrière-plan léger */
+}
+
+.room-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+/* Grille des chambres */
+.room-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Espacement entre les cartes */
+    justify-content: center;
+}
+
+/* Style de chaque carte */
+.room-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Ombre pour donner un effet de carte */
+    overflow: hidden;
+    width: 300px;
+    /* Largeur fixe pour chaque carte */
+    text-align: left;
+}
+
+.room-card img {
+    width: 100%;
+    /* L'image occupe toute la largeur de la carte */
+    height: 200px;
+    object-fit: cover;
+    /* Garde les proportions de l'image */
+}
+
+.room-card h3 {
+    font-size: 1.8em;
+    margin: 20px;
+}
+
+.room-card p {
+    font-size: 1em;
+    margin: 20px;
+    color: #555;
+}
