@@ -1,4 +1,6 @@
+import Activites from './activities/Activites';
 import './App.css';
+import Footer from './footer/Footer';
 import Header from './header/Header';
 import HotelInfo from './hotelInfo/HotelInfo';
 import Restaurant from './restaurant/Restaurant';
@@ -17,6 +19,9 @@ function App() {
       <Services></Services>
       <hr className="section-divider" />
       <Restaurant></Restaurant>
+      <hr className="section-divider" />
+      <Activites></Activites>
+      <Footer></Footer>
     </div>
   );
 }

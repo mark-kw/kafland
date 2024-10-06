@@ -1,7 +1,9 @@
-import parkingIcon from '../assets/chambre_clim.jpg';
-import wifiIcon from '../assets/chambre_confort.jpg';
-import restaurantIcon from '../assets/chambre_standar.jpg';
-import spaIcon from '../assets/chambre_standar.jpg';
+import parkingIcon from '../assets/parking.jpeg';
+import wifiIcon from '../assets/reseaux.jpeg';
+import restaurantIcon from '../assets/restauration.jpeg';
+import boissonIcon from '../assets/boisson.jpeg';
+import disponibiliteIcon from '../assets/disponibilite.jpeg';
+import environnementIcon from '../assets/environnement.jpeg';
 
 const services = [
     {
@@ -20,19 +22,19 @@ const services = [
         icon: restaurantIcon
     },
     {
-        name: 'Spa',
-        description: 'Détendez-vous dans notre spa de luxe.',
-        icon: spaIcon
+        name: 'Disponibilite',
+        description: 'Le personnelle disponible à tout moment',
+        icon: disponibiliteIcon
     },
     {
-        name: 'Spa',
-        description: 'Détendez-vous dans notre spa de luxe.',
-        icon: spaIcon
+        name: 'Boisson',
+        description: 'Un bar vous permettant de vous rafraichir',
+        icon: boissonIcon
     },
     {
-        name: 'Spa',
-        description: 'Détendez-vous dans notre spa de luxe.',
-        icon: spaIcon
+        name: 'Environnement',
+        description: 'Un cadre dépaysans',
+        icon: environnementIcon
     }
 ];
 
