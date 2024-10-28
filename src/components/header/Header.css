@@ -28,7 +28,7 @@ header {
     animation: fadeInUp 2s ease-in-out;
 }
 
-.video-container {
+/* .video-container {
     overflow: hidden;
 }
 
@@ -38,7 +38,7 @@ video {
     max-height: 90%;
     z-index: 1;
     object-fit: cover;
-}
+} */
 
 
 .header-text {
@@ -71,4 +71,29 @@ video {
     animation: fadeInUp 2s ease-in-out;
     /* Durée 2 secondes */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.image-container .header-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 90vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Ajustez l'opacité (0.4) pour un filtre plus ou moins foncé */
+}
+
+
+.logo-img {
+    width: 23%;
+    /* Ajustez la taille selon vos besoins */
+    height: auto;
+    /* Permet de garder les proportions de l'image */
 }

@@ -11,7 +11,7 @@ const HotelInfo = () => {
                 </div>
                 <div className="hotel-info-text">
                     <h2>Notre Hôtel</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a leo nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse sagittis mi laoreet sem eleifend rhoncus. Aliquam vel urna sagittis, eleifend nisl ac, mollis orci. Mauris sed lectus magna. In varius vestibulum dapibus. Integer at tellus ac magna aliquam placerat eu nec justo. Phasellus sed aliquam libero. Nam quis massa elit. Nulla et nisi fringilla, eleifend risus et, sodales neque. Vivamus facilisis libero et lectus aliquam laoreet. Phasellus quis neque id nunc iaculis consectetur. Suspendisse mollis imperdiet consequat</p>
+                    <p>Découvrez l’Hôtel Belair, niché au cœur des montagnes du Togo, où sérénité et élégance se rencontrent pour offrir un cadre exceptionnel. Profitez de chambres spacieuses et confortables avec des vues imprenables sur la nature environnante, idéales pour un séjour de détente ou une retraite romantique. Que vous soyez en quête d’aventure ou de repos, notre équipe dévouée est prête à vous faire vivre des expériences uniques, entre découvertes culturelles et randonnées au sein d'une nature préservée. Laissez-vous inspirer par l’air pur de la montagne et créez des souvenirs inoubliables dans ce havre de paix.</p>
 
                     <div className='hotel-info-num'>
                         <p>Pour reserver appelez le </p>

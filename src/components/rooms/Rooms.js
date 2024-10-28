@@ -7,8 +7,7 @@ const Rooms = () => {
 	return (
 		<section className="room-section">
 			<div className="room-header">
-				<p>Balcon ou terrasse, avec vue sur la forêt</p>
-				<h2>Les chambres</h2>
+				<h2>Nos chambres</h2>
 			</div>
 			<div className="room-grid">
 				{rooms.map((room, index) => (

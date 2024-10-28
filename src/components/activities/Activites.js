@@ -15,7 +15,7 @@ const Activites = () => {
 
     return (
         <section className="activities-section">
-            <h2>Les activités</h2>
+            <h2>Nos activités</h2>
             <div className="activities-grid">
                 {activites.map((activity, index) => (
                     <ActivityCard key={index} title={activity.titre} imageUrl={activity.image} />

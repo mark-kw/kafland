@@ -16,9 +16,9 @@ const Footer = () => {
                 <div className="footer-links">
                     <h3>Liens utiles</h3>
                     <ul>
-                        <li><a href="#">Politique de confidentialité</a></li>
-                        <li><a href="#">Politique de cookies</a></li>
-                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="www.google.fr">Politique de confidentialité</a></li>
+                        <li><a href="www.google.fr">Politique de cookies</a></li>
+                        <li><a href="www.google.fr">Mentions légales</a></li>
                     </ul>
                 </div>
             </div>

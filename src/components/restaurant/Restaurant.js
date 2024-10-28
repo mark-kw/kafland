@@ -7,10 +7,9 @@ const Restaurant = () => {
     return (
         <section className="restaurant-info">
             <div className="restaurant-info-content">
-
                 <div className="restaurant-info-text">
-                    <h2>Notre Hôtel</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a leo nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse sagittis mi laoreet sem eleifend rhoncus. Aliquam vel urna sagittis, eleifend nisl ac, mollis orci. Mauris sed lectus magna. In varius vestibulum dapibus. Integer at tellus ac magna aliquam placerat eu nec justo. Phasellus sed aliquam libero. Nam quis massa elit. Nulla et nisi fringilla, eleifend risus et, sodales neque. Vivamus facilisis libero et lectus aliquam laoreet. Phasellus quis neque id nunc iaculis consectetur. Suspendisse mollis imperdiet consequat</p>
+                    <h2>Notre restaurant</h2>
+                    <p>Au restaurant de l’Hôtel Belair, vivez une expérience culinaire unique, où chaque plat est une invitation au voyage. Niché au cœur des montagnes du Togo, notre restaurant allie saveurs locales et inspirations internationales pour ravir tous les palais. Nos chefs passionnés sélectionnent des ingrédients frais et de saison, privilégiant les produits locaux pour offrir des plats authentiques et raffinés. Que ce soit pour un dîner romantique ou un repas convivial, laissez-vous emporter par l’ambiance chaleureuse et les panoramas enchanteurs. Découvrez des saveurs exquises dans un cadre exceptionnel, où chaque repas devient un moment inoubliable.</p>
 
                     <div className='restaurant-info-num'>
                         <p>Pour reserver appelez le </p>
