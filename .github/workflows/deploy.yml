@@ -29,5 +29,5 @@ jobs:
         run: |
           echo "$SSH_PRIVATE_KEY" > /tmp/deploy_key
           chmod 600 /tmp/deploy_key
-          rsync -avz -e "ssh -i /tmp/deploy_key -o StrictHostKeyChecking=no" ./build/ kaflans@ssh.cluster023.hosting.ovh.net:/www/kafland
+          rsync -avz -e "ssh -i /tmp/deploy_key -o StrictHostKeyChecking=no" ./build/ kaflans@ssh.cluster023.hosting.ovh.net:/homez.148/kaflans/www/kafland
           rm -f /tmp/deploy_key
