@@ -1,16 +1,5 @@
 .activities-section {
-    height: 90vh;
-    padding: 2rem;
     text-align: center;
-}
-
-.activities-section h2 {
-    font-size: 2.5em;
-    margin-bottom: 30px;
-    color: #333;
-}
-
-.activities-grid {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -19,20 +8,9 @@
 .activity-card {
     position: relative;
     border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
     width: 250px;
     height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
 
-.activity-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
 }
 
 .activity-card h3 {
@@ -40,10 +18,15 @@
     bottom: 0;
     width: 100%;
     padding: 0.5rem;
-    margin: 0;
-    background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    text-align: center;
+    text-align: left;
     font-size: 1.2rem;
     text-transform: uppercase;
+
+}
+
+.activity-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

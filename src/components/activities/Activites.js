@@ -14,13 +14,11 @@ const ActivityCard = ({ title, imageUrl }) => {
 const Activites = () => {
 
     return (
-        <section className="activities-section">
-            <h2>Nos activités</h2>
-            <div className="activities-grid">
-                {activites.map((activity, index) => (
-                    <ActivityCard key={index} title={activity.titre} imageUrl={activity.image} />
-                ))}
-            </div>
+        <section className="activities-section ">
+            {activites.map((activity, index) => (
+                <ActivityCard key={index} title={activity.titre} imageUrl={activity.image} />
+            ))}
+
         </section>
     );
 };

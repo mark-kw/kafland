@@ -1,0 +1,23 @@
+nav {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    height: 5em;
+}
+
+.logo-img {
+    width: 120px;
+}
+
+.phone-number p {
+    font-size: 1em;
+    animation: fadeInUp 2s ease-in-out;
+}

@@ -5,9 +5,9 @@ import room3 from '../assets/chambre_standar.jpg';
 const rooms = [
     {
         nom: "Chambre ventillée",
-        prix: 25,
+        prix: 30,
         personne: 2,
-        image : room1
+        image: room1
     },
     {
         nom: "Chambre Standard",
@@ -17,7 +17,7 @@ const rooms = [
     },
     {
         nom: "Chambre Climatisée",
-        prix: 25,
+        prix: 35,
         personne: 2,
         image: room3
     }

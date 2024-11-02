@@ -1,9 +1,9 @@
-import parkingIcon from '../assets/parking.jpeg';
-import wifiIcon from '../assets/reseaux.jpeg';
-import restaurantIcon from '../assets/restauration.jpeg';
-import boissonIcon from '../assets/boisson.jpeg';
-import disponibiliteIcon from '../assets/disponibilite.jpeg';
-import environnementIcon from '../assets/environnement.jpeg';
+import parkingIcon from '../assets/parking.png';
+import wifiIcon from '../assets/reseaux.png';
+import restaurantIcon from '../assets/restauration.png';
+import boissonIcon from '../assets/boisson.png';
+import disponibiliteIcon from '../assets/disponibilite.png';
+import environnementIcon from '../assets/environnement.png';
 
 const services = [
     {
