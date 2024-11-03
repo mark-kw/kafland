@@ -47,3 +47,34 @@ ul li {
     margin: 5px 20px;
     font-size: 16px;
 }
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-map,
+    .footer-location {
+        width: 100%;
+    }
+
+    .footer-links {
+        height: auto;
+        text-align: center;
+    }
+
+    .footer-links ul {
+        padding: 0;
+        margin: 10px 0 0 0;
+    }
+
+    .footer-links ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .logo {
+        margin-bottom: 10px
+    }
+}

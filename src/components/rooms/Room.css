@@ -28,3 +28,25 @@
 	object-fit: cover;
 	display: block
 }
+
+@media (max-width: 768px) {
+	.room-section {
+		flex-direction: column;
+	}
+
+	.room-card {
+		margin-bottom: 40px;
+	}
+
+	.room-info {
+		align-items: flex-start;
+	}
+
+	.room-info h3 {
+		font-size: 1.2em;
+	}
+
+	.room-info .price {
+		font-size: 1em;
+	}
+}

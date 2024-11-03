@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import logo from '../../assets/logo.png'
 import './Navbar.css'
 import RevealSide from '../../utils/animations/RevealSide';

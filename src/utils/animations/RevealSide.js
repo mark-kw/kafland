@@ -16,7 +16,7 @@ const RevealSide = ({ children, width = 'fit-content' }) => {
             mainControl.start("visible")
         }
 
-    }, [isInView])
+    }, [isInView, mainControl])
 
     return (
         <div ref={ref} style={{ position: "relative", width, overflow: 'hidden' }}>

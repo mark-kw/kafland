@@ -1,7 +1,6 @@
 import React from 'react';
 import activites from '../../utils/dataActivites';
 import './Activites.css'
-import RevealSide from '../../utils/animations/RevealSide';
 
 const ActivityCard = ({ title, imageUrl }) => {
     return (

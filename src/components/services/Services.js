@@ -2,7 +2,6 @@ import React from 'react';
 import './Services.css'
 
 import services from '../../utils/dataServices';
-import { motion } from 'framer-motion';
 import RevealSide from '../../utils/animations/RevealSide';
 
 const Services = () => {

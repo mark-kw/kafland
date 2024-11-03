@@ -31,3 +31,32 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+/* Styles pour les écrans de téléphone */
+@media (max-width: 768px) {
+    .restaurant-info {
+        flex-direction: column;
+    }
+
+    .restaurant-info-image {
+        flex-basis: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .restaurant-info-text {
+        flex-basis: 100%;
+        height: auto;
+        padding: 20px;
+        font-size: 0.9em;
+    }
+
+    .restaurant-info h2 {
+        padding-bottom: 10px;
+    }
+
+    .restaurant-info-num {
+        margin-top: 10px;
+    }
+}
