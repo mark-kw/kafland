@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from '../../assets/logo.png'
 import './Navbar.css'
+import RevealSide from '../../utils/animations/RevealSide';
 
 
 const Navbar = () => {
@@ -8,7 +9,9 @@ const Navbar = () => {
         <nav className="container">
             <img src={logo} alt="Hotel Logo" className="logo-img" />
             <div className="phone-number">
-                <p>+228 91 06 13 27</p>
+                <RevealSide>
+                    <p>+228 91 06 13 27</p>
+                </RevealSide>
             </div>
         </nav>
 

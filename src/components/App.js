@@ -1,7 +1,7 @@
 import Activites from './activities/Activites';
 import './App.css';
 import Footer from './footer/Footer';
-import Header from './header/Header';
+import Hero from './hero/Hero';
 import HotelInfo from './hotelInfo/HotelInfo';
 import Navbar from './Navbar/Navbar';
 import Restaurant from './restaurant/Restaurant';
@@ -13,7 +13,7 @@ function App() {
 	return (
 		<div className="App">
 			<Navbar />
-			<Header />
+			<Hero />
 			<div className='container'>
 				<Title subTitle="Harmonie, nature, et confort en altitude" title="Notre Hôtel" />
 				<HotelInfo />
