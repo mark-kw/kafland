@@ -68,6 +68,7 @@ ul li {
     .footer-links {
         height: auto;
         text-align: center;
+        padding: 5px;
     }
 
     .footer-links ul {
